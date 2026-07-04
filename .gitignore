@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Telegram session (contains your login — never commit)
+*.session
+*.session-journal
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

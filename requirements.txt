@@ -1,0 +1,17 @@
+# Telegram (user account reader)
+telethon==1.36.0
+
+# Binance Futures
+python-binance==1.0.19
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Scheduling / rate limiting
+asyncio-throttle==1.0.2
+
+# Logging (structured)
+loguru==0.7.2
+
+# Data handling
+python-dateutil==2.9.0
