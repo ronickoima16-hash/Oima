@@ -28,7 +28,7 @@ Telegram Notifications
 
 ## Features
 
-- **$20 USDT fixed size** per trade (configurable)
+- **$10 USDT fixed size** per trade (configurable)
 - **Max 3 open trades** simultaneously (configurable)
 - **Leverage** read from signal or overridden in config
 - **All TP targets** used — position split across TP1/TP2/TP3 (50/30/20%)
@@ -226,7 +226,7 @@ All settings are in `config.py`:
 
 | Setting | Default | Description |
 |---|---|---|
-| `TRADE_SIZE_USDT` | `20.0` | Fixed USDT per trade |
+| `TRADE_SIZE_USDT` | `10.0` | Fixed USDT per trade |
 | `MAX_OPEN_TRADES` | `3` | Max simultaneous positions |
 | `DEFAULT_LEVERAGE` | `None` | `None` = read from signal |
 | `TP_SPLIT` | `[0.5, 0.3, 0.2]` | Position % closed at each TP |
